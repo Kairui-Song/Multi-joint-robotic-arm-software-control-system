@@ -1,0 +1,55 @@
+header:
+  stamp:
+    sec: 1790831452
+    nanosec: 200708941
+  frame_id: base_link
+joint_names:
+- joint_1
+- joint_2
+- joint_3
+- joint_5
+- control_health
+interface_values:
+- interface_names:
+  - position
+  - velocity
+  values:
+  - 0.15
+  - 0.0
+- interface_names:
+  - position
+  - velocity
+  values:
+  - -0.1
+  - 0.0
+- interface_names:
+  - position
+  - velocity
+  values:
+  - 0.05
+  - 0.0
+- interface_names:
+  - position
+  - velocity
+  values:
+  - 0.02
+  - 0.0
+- interface_names:
+  - mock
+  - active
+  - cycles
+  - period_seconds
+  - max_period_seconds
+  - deadline_misses
+  - fault_code
+  - feedback_age_seconds
+  values:
+  - 1.0
+  - 1.0
+  - 32332.0
+  - 0.010110415
+  - 0.049283411
+  - 1.0
+  - 0.0
+  - 0.0
+---

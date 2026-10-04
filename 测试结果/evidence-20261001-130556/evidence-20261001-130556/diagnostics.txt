@@ -1,0 +1,28 @@
+header:
+  stamp:
+    sec: 1790831460
+    nanosec: 579847548
+  frame_id: ''
+status:
+- level: "\x03"
+  name: linglong/control
+  message: state stream stopped; hardware state unknown
+  hardware_id: MOCK_ONLY
+  values:
+  - key: mock
+    value: '1.0'
+  - key: active
+    value: '1.0'
+  - key: cycles
+    value: '32332.0'
+  - key: period_seconds
+    value: '0.010110415'
+  - key: max_period_seconds
+    value: '0.049283411'
+  - key: deadline_misses
+    value: '1.0'
+  - key: fault_code
+    value: '0.0'
+  - key: feedback_age_seconds
+    value: '0.0'
+---

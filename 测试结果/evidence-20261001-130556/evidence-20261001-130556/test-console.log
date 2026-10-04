@@ -1,0 +1,45 @@
+开始两小时 MOCK 测试：2026-10-01T13:05:58+08:00
+输出目录：verification/longrun-20261001-130558
+cycles=4032, deadline_misses=0, max_period_ms=11.724
+第 1 轮通过，已运行 11 秒
+cycles=5532, deadline_misses=0, max_period_ms=11.724
+第 2 轮通过，已运行 26 秒
+cycles=6732, deadline_misses=0, max_period_ms=11.724
+第 3 轮通过，已运行 38 秒
+cycles=8232, deadline_misses=0, max_period_ms=11.724
+第 4 轮通过，已运行 53 秒
+cycles=9732, deadline_misses=0, max_period_ms=11.724
+第 5 轮通过，已运行 68 秒
+cycles=10932, deadline_misses=0, max_period_ms=11.724
+第 6 轮通过，已运行 80 秒
+cycles=12432, deadline_misses=0, max_period_ms=11.724
+第 7 轮通过，已运行 95 秒
+cycles=13932, deadline_misses=0, max_period_ms=11.724
+第 8 轮通过，已运行 110 秒
+cycles=15432, deadline_misses=0, max_period_ms=11.724
+第 9 轮通过，已运行 125 秒
+cycles=16932, deadline_misses=0, max_period_ms=11.724
+第 10 轮通过，已运行 140 秒
+cycles=18432, deadline_misses=0, max_period_ms=11.724
+第 11 轮通过，已运行 155 秒
+cycles=19932, deadline_misses=0, max_period_ms=11.724
+第 12 轮通过，已运行 170 秒
+cycles=21312, deadline_misses=0, max_period_ms=11.724
+第 13 轮通过，已运行 184 秒
+cycles=22632, deadline_misses=0, max_period_ms=11.724
+第 14 轮通过，已运行 197 秒
+cycles=23992, deadline_misses=0, max_period_ms=11.724
+第 15 轮通过，已运行 211 秒
+cycles=25232, deadline_misses=0, max_period_ms=11.724
+第 16 轮通过，已运行 223 秒
+cycles=26452, deadline_misses=0, max_period_ms=11.724
+第 17 轮通过，已运行 236 秒
+cycles=28032, deadline_misses=0, max_period_ms=11.724
+第 18 轮通过，已运行 251 秒
+cycles=29532, deadline_misses=0, max_period_ms=11.724
+第 19 轮通过，已运行 266 秒
+cycles=31032, deadline_misses=0, max_period_ms=11.724
+第 20 轮通过，已运行 281 秒
+诊断非 OK：state stream stopped; hardware state unknown
+FAIL：第 21 轮健康检查失败
+结果目录：verification/longrun-20261001-130558

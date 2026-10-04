@@ -1,0 +1,186 @@
+2026-10-03T17:33:25+08:00
+active
+[WARN] [1791020005.896878034] [rcl]: ROS_LOCALHOST_ONLY is deprecated but still honored if it is enabled. Use ROS_AUTOMATIC_DISCOVERY_RANGE and ROS_STATIC_PEERS instead.
+[WARN] [1791020005.896907873] [rcl]: 'localhost_only' is enabled, 'automatic_discovery_range' and 'static_peers' will be ignored.
+[INFO] [1791020006.518086380] [_ros2cli_9277]: waiting for service /controller_manager/list_controllers to become available...
+joint_trajectory_controller joint_trajectory_controller/JointTrajectoryController  active
+joint_state_broadcaster     joint_state_broadcaster/JointStateBroadcaster          active
+[WARN] [1791020009.092198167] [rcl]: ROS_LOCALHOST_ONLY is deprecated but still honored if it is enabled. Use ROS_AUTOMATIC_DISCOVERY_RANGE and ROS_STATIC_PEERS instead.
+[WARN] [1791020009.092228517] [rcl]: 'localhost_only' is enabled, 'automatic_discovery_range' and 'static_peers' will be ignored.
+header:
+  stamp:
+    sec: 1791020011
+    nanosec: 148891659
+  frame_id: base_link
+name:
+- joint1
+- joint2
+- joint3
+- joint4
+- joint5
+- joint6
+- joint7
+position:
+- -0.00019174486915396471
+- -0.00019174486915396471
+- -0.0001907377737087046
+- -0.0001907377737087046
+- -0.0001907377737087046
+- -0.0001907377737087046
+- -0.0001907377737087046
+velocity:
+- -0.004884004884004867
+- -0.004884004884004867
+- -0.004884004884004867
+- -0.004884004884004867
+- -0.012210012210012167
+- -0.012210012210012167
+- -0.012210012210012167
+effort:
+- .nan
+- .nan
+- .nan
+- .nan
+- .nan
+- .nan
+- .nan
+---
+[WARN] [1791020011.899414716] [rcl]: ROS_LOCALHOST_ONLY is deprecated but still honored if it is enabled. Use ROS_AUTOMATIC_DISCOVERY_RANGE and ROS_STATIC_PEERS instead.
+[WARN] [1791020011.899460435] [rcl]: 'localhost_only' is enabled, 'automatic_discovery_range' and 'static_peers' will be ignored.
+header:
+  stamp:
+    sec: 1791020012
+    nanosec: 556272409
+  frame_id: ''
+status:
+- level: "\0"
+  name: arm_control/hardware
+  message: Active
+  hardware_id: can_mock
+  values:
+  - key: fault_code
+    value: '0'
+  - key: cycles
+    value: '4797'
+  - key: bus_fault_reason
+    value: ''
+  - key: period_us
+    value: '9981.466000'
+  - key: max_abs_jitter_us
+    value: '39616.007000'
+  - key: read_us
+    value: '2.815000'
+  - key: write_us
+    value: '1.157000'
+  - key: overruns
+    value: '5'
+  - key: limited_commands
+    value: '0'
+  - key: timing_dropped
+    value: '0'
+- level: "\0"
+  name: arm_control/joint1
+  message: Feedback available
+  hardware_id: can_mock
+  values:
+  - key: position_rad
+    value: '-0.000192'
+  - key: velocity_rad_s
+    value: '-0.004884'
+  - key: statusword
+    value: '17'
+  - key: error_code
+    value: '0'
+  - key: mode_display
+    value: '-1'
+- level: "\0"
+  name: arm_control/joint2
+  message: Feedback available
+  hardware_id: can_mock
+  values:
+  - key: position_rad
+    value: '-0.000192'
+  - key: velocity_rad_s
+    value: '-0.004884'
+  - key: statusword
+    value: '18'
+  - key: error_code
+    value: '0'
+  - key: mode_display
+    value: '-1'
+- level: "\0"
+  name: arm_control/joint3
+  message: Feedback available
+  hardware_id: can_mock
+  values:
+  - key: position_rad
+    value: '-0.000191'
+  - key: velocity_rad_s
+    value: '-0.004884'
+  - key: statusword
+    value: '19'
+  - key: error_code
+    value: '0'
+  - key: mode_display
+    value: '-1'
+- level: "\0"
+  name: arm_control/joint4
+  message: Feedback available
+  hardware_id: can_mock
+  values:
+  - key: position_rad
+    value: '-0.000191'
+  - key: velocity_rad_s
+    value: '-0.004884'
+  - key: statusword
+    value: '20'
+  - key: error_code
+    value: '0'
+  - key: mode_display
+    value: '-1'
+- level: "\0"
+  name: arm_control/joint5
+  message: Feedback available
+  hardware_id: can_mock
+  values:
+  - key: position_rad
+    value: '-0.000191'
+  - key: velocity_rad_s
+    value: '-0.012210'
+  - key: statusword
+    value: '21'
+  - key: error_code
+    value: '0'
+  - key: mode_display
+    value: '-1'
+- level: "\0"
+  name: arm_control/joint6
+  message: Feedback available
+  hardware_id: can_mock
+  values:
+  - key: position_rad
+    value: '-0.000191'
+  - key: velocity_rad_s
+    value: '-0.012210'
+  - key: statusword
+    value: '22'
+  - key: error_code
+    value: '0'
+  - key: mode_display
+    value: '-1'
+- level: "\0"
+  name: arm_control/joint7
+  message: Feedback available
+  hardware_id: can_mock
+  values:
+  - key: position_rad
+    value: '-0.000191'
+  - key: velocity_rad_s
+    value: '-0.012210'
+  - key: statusword
+    value: '23'
+  - key: error_code
+    value: '0'
+  - key: mode_display
+    value: '-1'
+---

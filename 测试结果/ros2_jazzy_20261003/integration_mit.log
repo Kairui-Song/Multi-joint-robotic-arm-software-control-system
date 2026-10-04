@@ -1,0 +1,91 @@
+[WARN] [1790996544.048288917] [rcl]: ROS_LOCALHOST_ONLY is deprecated but still honored if it is enabled. Use ROS_AUTOMATIC_DISCOVERY_RANGE and ROS_STATIC_PEERS instead.
+[WARN] [1790996544.048327978] [rcl]: 'localhost_only' is enabled, 'automatic_discovery_range' and 'static_peers' will be ignored.
+[WARN] [1790996546.959308886] [rcl]: ROS_LOCALHOST_ONLY is deprecated but still honored if it is enabled. Use ROS_AUTOMATIC_DISCOVERY_RANGE and ROS_STATIC_PEERS instead.
+[WARN] [1790996546.959346074] [rcl]: 'localhost_only' is enabled, 'automatic_discovery_range' and 'static_peers' will be ignored.
+Hardware and controllers active; old trajectory goals discarded. Submit a new goal.
+[WARN] [1790996548.610492844] [rcl]: ROS_LOCALHOST_ONLY is deprecated but still honored if it is enabled. Use ROS_AUTOMATIC_DISCOVERY_RANGE and ROS_STATIC_PEERS instead.
+[WARN] [1790996548.610517489] [rcl]: 'localhost_only' is enabled, 'automatic_discovery_range' and 'static_peers' will be ignored.
+Trajectory completed; final encoder positions agree with the joint targets
+[WARN] [1790996554.532567235] [rcl]: ROS_LOCALHOST_ONLY is deprecated but still honored if it is enabled. Use ROS_AUTOMATIC_DISCOVERY_RANGE and ROS_STATIC_PEERS instead.
+[WARN] [1790996554.532610607] [rcl]: 'localhost_only' is enabled, 'automatic_discovery_range' and 'static_peers' will be ignored.
+waiting for service to become available...
+requester: making request: std_srvs.srv.Trigger_Request()
+
+response:
+std_srvs.srv.Trigger_Response(success=True, message='Fault queued for next read cycle')
+
+[WARN] [1790996556.691609396] [rcl]: ROS_LOCALHOST_ONLY is deprecated but still honored if it is enabled. Use ROS_AUTOMATIC_DISCOVERY_RANGE and ROS_STATIC_PEERS instead.
+[WARN] [1790996556.691641748] [rcl]: 'localhost_only' is enabled, 'automatic_discovery_range' and 'static_peers' will be ignored.
+Hardware and controllers active; old trajectory goals discarded. Submit a new goal.
+[WARN] [1790996558.485072725] [rcl]: ROS_LOCALHOST_ONLY is deprecated but still honored if it is enabled. Use ROS_AUTOMATIC_DISCOVERY_RANGE and ROS_STATIC_PEERS instead.
+[WARN] [1790996558.485126074] [rcl]: 'localhost_only' is enabled, 'automatic_discovery_range' and 'static_peers' will be ignored.
+Trajectory completed; final encoder positions agree with the joint targets
+[WARN] [1790996563.345743043] [rcl]: ROS_LOCALHOST_ONLY is deprecated but still honored if it is enabled. Use ROS_AUTOMATIC_DISCOVERY_RANGE and ROS_STATIC_PEERS instead.
+[WARN] [1790996563.345776076] [rcl]: 'localhost_only' is enabled, 'automatic_discovery_range' and 'static_peers' will be ignored.
+{
+  "units": "microseconds",
+  "duration_s": 2.0,
+  "control_period": {
+    "samples": 200,
+    "min": 9798.484,
+    "mean": 10000.49372,
+    "p50": 10000.27,
+    "p95": 10065.345,
+    "p99": 10172.551,
+    "max": 10206.373
+  },
+  "control_abs_jitter": {
+    "samples": 200,
+    "min": 0.0030000000006111804,
+    "mean": 33.28758999999995,
+    "p50": 22.110000000000582,
+    "p95": 101.96600000000035,
+    "p99": 186.40500000000065,
+    "max": 206.3729999999996
+  },
+  "hardware_read": {
+    "samples": 200,
+    "min": 2.216,
+    "mean": 4.484,
+    "p50": 4.132,
+    "p95": 6.738,
+    "p99": 9.721,
+    "max": 16.216
+  },
+  "hardware_write": {
+    "samples": 200,
+    "min": 0.977,
+    "mean": 1.7819200000000002,
+    "p50": 1.566,
+    "p95": 2.661,
+    "p99": 3.901,
+    "max": 16.073
+  },
+  "joint_state_arrival_interval": {
+    "samples": 199,
+    "min": 9006.911,
+    "mean": 10000.293603015074,
+    "p50": 10025.086,
+    "p95": 10442.997,
+    "p99": 10727.699,
+    "max": 10760.828
+  },
+  "joint_state_stamp_age": {
+    "samples": 200,
+    "min": 417.634,
+    "mean": 798.307545,
+    "p50": 768.816,
+    "p95": 1160.791,
+    "p99": 1499.411,
+    "max": 1594.636
+  },
+  "missing_control_samples": 0,
+  "sequence_resets": 0,
+  "stale_streams": [],
+  "control_sample_coverage_s": 2.0000987439999998,
+  "timing_ring_drops_during_test": 0,
+  "faults": [],
+  "scope": "Host control cycle and DDS observation; not physical command-to-motion or wire latency",
+  "passed": true
+}
+PASS: plugin load, lifecycle, trajectory, injected fault, recovery, telemetry and rosbag2

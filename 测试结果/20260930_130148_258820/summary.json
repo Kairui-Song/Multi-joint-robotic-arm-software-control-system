@@ -1,0 +1,1150 @@
+{
+  "scope": "Seven-axis simulation; not physical hardware validation",
+  "seed": 20260930,
+  "planned": 60,
+  "attempted": 60,
+  "passed": 60,
+  "all_passed": true,
+  "results": [
+    {
+      "index": 1,
+      "round": 1,
+      "case": "zero_start",
+      "input_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "duration_s": 5,
+      "elapsed_s": 8.583,
+      "returncode": 0,
+      "passed": true,
+      "log": "001_round01_zero_start.log"
+    },
+    {
+      "index": 2,
+      "round": 1,
+      "case": "positive",
+      "input_rad": [
+        0.15,
+        -0.2,
+        0.2,
+        0.1,
+        -0.15,
+        0.1,
+        0.15
+      ],
+      "duration_s": 5,
+      "elapsed_s": 8.992,
+      "returncode": 0,
+      "passed": true,
+      "log": "002_round01_positive.log"
+    },
+    {
+      "index": 3,
+      "round": 1,
+      "case": "negative",
+      "input_rad": [
+        -0.15,
+        0.2,
+        -0.2,
+        -0.1,
+        0.15,
+        -0.1,
+        -0.15
+      ],
+      "duration_s": 5,
+      "elapsed_s": 9.606,
+      "returncode": 0,
+      "passed": true,
+      "log": "003_round01_negative.log"
+    },
+    {
+      "index": 4,
+      "round": 1,
+      "case": "random",
+      "input_rad": [
+        -0.0149,
+        0.0522,
+        -0.1111,
+        -0.077,
+        0.0008,
+        0.1762,
+        0.0575
+      ],
+      "duration_s": 5,
+      "elapsed_s": 8.587,
+      "returncode": 0,
+      "passed": true,
+      "log": "004_round01_random.log"
+    },
+    {
+      "index": 5,
+      "round": 1,
+      "case": "zero_before_ik",
+      "input_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "duration_s": 5,
+      "elapsed_s": 9.32,
+      "returncode": 0,
+      "passed": true,
+      "log": "005_round01_zero_before_ik.log"
+    },
+    {
+      "index": 6,
+      "round": 1,
+      "case": "fk_ik",
+      "input_rad": [
+        0.1,
+        -0.1,
+        0.1,
+        0.05,
+        -0.1,
+        0.05,
+        0.1
+      ],
+      "duration_s": 5,
+      "elapsed_s": 6.852,
+      "returncode": 0,
+      "passed": true,
+      "log": "006_round01_fk_ik.log"
+    },
+    {
+      "index": 7,
+      "round": 2,
+      "case": "zero_start",
+      "input_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "duration_s": 5,
+      "elapsed_s": 6.633,
+      "returncode": 0,
+      "passed": true,
+      "log": "007_round02_zero_start.log"
+    },
+    {
+      "index": 8,
+      "round": 2,
+      "case": "positive",
+      "input_rad": [
+        0.15,
+        -0.2,
+        0.2,
+        0.1,
+        -0.15,
+        0.1,
+        0.15
+      ],
+      "duration_s": 5,
+      "elapsed_s": 7.699,
+      "returncode": 0,
+      "passed": true,
+      "log": "008_round02_positive.log"
+    },
+    {
+      "index": 9,
+      "round": 2,
+      "case": "negative",
+      "input_rad": [
+        -0.15,
+        0.2,
+        -0.2,
+        -0.1,
+        0.15,
+        -0.1,
+        -0.15
+      ],
+      "duration_s": 5,
+      "elapsed_s": 6.761,
+      "returncode": 0,
+      "passed": true,
+      "log": "009_round02_negative.log"
+    },
+    {
+      "index": 10,
+      "round": 2,
+      "case": "random",
+      "input_rad": [
+        0.1288,
+        -0.1801,
+        0.0829,
+        0.1999,
+        -0.0132,
+        0.1472,
+        0.0337
+      ],
+      "duration_s": 5,
+      "elapsed_s": 7.789,
+      "returncode": 0,
+      "passed": true,
+      "log": "010_round02_random.log"
+    },
+    {
+      "index": 11,
+      "round": 2,
+      "case": "zero_before_ik",
+      "input_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "duration_s": 5,
+      "elapsed_s": 6.466,
+      "returncode": 0,
+      "passed": true,
+      "log": "011_round02_zero_before_ik.log"
+    },
+    {
+      "index": 12,
+      "round": 2,
+      "case": "fk_ik",
+      "input_rad": [
+        0.1,
+        -0.1,
+        0.1,
+        0.05,
+        -0.1,
+        0.05,
+        0.1
+      ],
+      "duration_s": 5,
+      "elapsed_s": 8.798,
+      "returncode": 0,
+      "passed": true,
+      "log": "012_round02_fk_ik.log"
+    },
+    {
+      "index": 13,
+      "round": 3,
+      "case": "zero_start",
+      "input_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "duration_s": 5,
+      "elapsed_s": 8.566,
+      "returncode": 0,
+      "passed": true,
+      "log": "013_round03_zero_start.log"
+    },
+    {
+      "index": 14,
+      "round": 3,
+      "case": "positive",
+      "input_rad": [
+        0.15,
+        -0.2,
+        0.2,
+        0.1,
+        -0.15,
+        0.1,
+        0.15
+      ],
+      "duration_s": 5,
+      "elapsed_s": 9.121,
+      "returncode": 0,
+      "passed": true,
+      "log": "014_round03_positive.log"
+    },
+    {
+      "index": 15,
+      "round": 3,
+      "case": "negative",
+      "input_rad": [
+        -0.15,
+        0.2,
+        -0.2,
+        -0.1,
+        0.15,
+        -0.1,
+        -0.15
+      ],
+      "duration_s": 5,
+      "elapsed_s": 6.71,
+      "returncode": 0,
+      "passed": true,
+      "log": "015_round03_negative.log"
+    },
+    {
+      "index": 16,
+      "round": 3,
+      "case": "random",
+      "input_rad": [
+        -0.1893,
+        -0.184,
+        0.1465,
+        -0.1291,
+        0.0132,
+        -0.1693,
+        -0.0497
+      ],
+      "duration_s": 5,
+      "elapsed_s": 8.367,
+      "returncode": 0,
+      "passed": true,
+      "log": "016_round03_random.log"
+    },
+    {
+      "index": 17,
+      "round": 3,
+      "case": "zero_before_ik",
+      "input_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "duration_s": 5,
+      "elapsed_s": 9.074,
+      "returncode": 0,
+      "passed": true,
+      "log": "017_round03_zero_before_ik.log"
+    },
+    {
+      "index": 18,
+      "round": 3,
+      "case": "fk_ik",
+      "input_rad": [
+        0.1,
+        -0.1,
+        0.1,
+        0.05,
+        -0.1,
+        0.05,
+        0.1
+      ],
+      "duration_s": 5,
+      "elapsed_s": 9.555,
+      "returncode": 0,
+      "passed": true,
+      "log": "018_round03_fk_ik.log"
+    },
+    {
+      "index": 19,
+      "round": 4,
+      "case": "zero_start",
+      "input_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "duration_s": 5,
+      "elapsed_s": 7.151,
+      "returncode": 0,
+      "passed": true,
+      "log": "019_round04_zero_start.log"
+    },
+    {
+      "index": 20,
+      "round": 4,
+      "case": "positive",
+      "input_rad": [
+        0.15,
+        -0.2,
+        0.2,
+        0.1,
+        -0.15,
+        0.1,
+        0.15
+      ],
+      "duration_s": 5,
+      "elapsed_s": 6.834,
+      "returncode": 0,
+      "passed": true,
+      "log": "020_round04_positive.log"
+    },
+    {
+      "index": 21,
+      "round": 4,
+      "case": "negative",
+      "input_rad": [
+        -0.15,
+        0.2,
+        -0.2,
+        -0.1,
+        0.15,
+        -0.1,
+        -0.15
+      ],
+      "duration_s": 5,
+      "elapsed_s": 10.503,
+      "returncode": 0,
+      "passed": true,
+      "log": "021_round04_negative.log"
+    },
+    {
+      "index": 22,
+      "round": 4,
+      "case": "random",
+      "input_rad": [
+        -0.0711,
+        0.1371,
+        0.1131,
+        0.1741,
+        0.159,
+        -0.1028,
+        -0.1973
+      ],
+      "duration_s": 5,
+      "elapsed_s": 8.342,
+      "returncode": 0,
+      "passed": true,
+      "log": "022_round04_random.log"
+    },
+    {
+      "index": 23,
+      "round": 4,
+      "case": "zero_before_ik",
+      "input_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "duration_s": 5,
+      "elapsed_s": 6.473,
+      "returncode": 0,
+      "passed": true,
+      "log": "023_round04_zero_before_ik.log"
+    },
+    {
+      "index": 24,
+      "round": 4,
+      "case": "fk_ik",
+      "input_rad": [
+        0.1,
+        -0.1,
+        0.1,
+        0.05,
+        -0.1,
+        0.05,
+        0.1
+      ],
+      "duration_s": 5,
+      "elapsed_s": 8.322,
+      "returncode": 0,
+      "passed": true,
+      "log": "024_round04_fk_ik.log"
+    },
+    {
+      "index": 25,
+      "round": 5,
+      "case": "zero_start",
+      "input_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "duration_s": 5,
+      "elapsed_s": 8.646,
+      "returncode": 0,
+      "passed": true,
+      "log": "025_round05_zero_start.log"
+    },
+    {
+      "index": 26,
+      "round": 5,
+      "case": "positive",
+      "input_rad": [
+        0.15,
+        -0.2,
+        0.2,
+        0.1,
+        -0.15,
+        0.1,
+        0.15
+      ],
+      "duration_s": 5,
+      "elapsed_s": 6.658,
+      "returncode": 0,
+      "passed": true,
+      "log": "026_round05_positive.log"
+    },
+    {
+      "index": 27,
+      "round": 5,
+      "case": "negative",
+      "input_rad": [
+        -0.15,
+        0.2,
+        -0.2,
+        -0.1,
+        0.15,
+        -0.1,
+        -0.15
+      ],
+      "duration_s": 5,
+      "elapsed_s": 9.247,
+      "returncode": 0,
+      "passed": true,
+      "log": "027_round05_negative.log"
+    },
+    {
+      "index": 28,
+      "round": 5,
+      "case": "random",
+      "input_rad": [
+        -0.0886,
+        0.1912,
+        0.0048,
+        0.018,
+        -0.119,
+        0.1092,
+        0.0128
+      ],
+      "duration_s": 5,
+      "elapsed_s": 8.089,
+      "returncode": 0,
+      "passed": true,
+      "log": "028_round05_random.log"
+    },
+    {
+      "index": 29,
+      "round": 5,
+      "case": "zero_before_ik",
+      "input_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "duration_s": 5,
+      "elapsed_s": 6.846,
+      "returncode": 0,
+      "passed": true,
+      "log": "029_round05_zero_before_ik.log"
+    },
+    {
+      "index": 30,
+      "round": 5,
+      "case": "fk_ik",
+      "input_rad": [
+        0.1,
+        -0.1,
+        0.1,
+        0.05,
+        -0.1,
+        0.05,
+        0.1
+      ],
+      "duration_s": 5,
+      "elapsed_s": 8.914,
+      "returncode": 0,
+      "passed": true,
+      "log": "030_round05_fk_ik.log"
+    },
+    {
+      "index": 31,
+      "round": 6,
+      "case": "zero_start",
+      "input_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "duration_s": 5,
+      "elapsed_s": 6.755,
+      "returncode": 0,
+      "passed": true,
+      "log": "031_round06_zero_start.log"
+    },
+    {
+      "index": 32,
+      "round": 6,
+      "case": "positive",
+      "input_rad": [
+        0.15,
+        -0.2,
+        0.2,
+        0.1,
+        -0.15,
+        0.1,
+        0.15
+      ],
+      "duration_s": 5,
+      "elapsed_s": 6.87,
+      "returncode": 0,
+      "passed": true,
+      "log": "032_round06_positive.log"
+    },
+    {
+      "index": 33,
+      "round": 6,
+      "case": "negative",
+      "input_rad": [
+        -0.15,
+        0.2,
+        -0.2,
+        -0.1,
+        0.15,
+        -0.1,
+        -0.15
+      ],
+      "duration_s": 5,
+      "elapsed_s": 6.621,
+      "returncode": 0,
+      "passed": true,
+      "log": "033_round06_negative.log"
+    },
+    {
+      "index": 34,
+      "round": 6,
+      "case": "random",
+      "input_rad": [
+        -0.1342,
+        -0.0924,
+        -0.0602,
+        0.0221,
+        0.0113,
+        -0.1416,
+        -0.1279
+      ],
+      "duration_s": 5,
+      "elapsed_s": 9.05,
+      "returncode": 0,
+      "passed": true,
+      "log": "034_round06_random.log"
+    },
+    {
+      "index": 35,
+      "round": 6,
+      "case": "zero_before_ik",
+      "input_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "duration_s": 5,
+      "elapsed_s": 9.33,
+      "returncode": 0,
+      "passed": true,
+      "log": "035_round06_zero_before_ik.log"
+    },
+    {
+      "index": 36,
+      "round": 6,
+      "case": "fk_ik",
+      "input_rad": [
+        0.1,
+        -0.1,
+        0.1,
+        0.05,
+        -0.1,
+        0.05,
+        0.1
+      ],
+      "duration_s": 5,
+      "elapsed_s": 7.065,
+      "returncode": 0,
+      "passed": true,
+      "log": "036_round06_fk_ik.log"
+    },
+    {
+      "index": 37,
+      "round": 7,
+      "case": "zero_start",
+      "input_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "duration_s": 5,
+      "elapsed_s": 6.747,
+      "returncode": 0,
+      "passed": true,
+      "log": "037_round07_zero_start.log"
+    },
+    {
+      "index": 38,
+      "round": 7,
+      "case": "positive",
+      "input_rad": [
+        0.15,
+        -0.2,
+        0.2,
+        0.1,
+        -0.15,
+        0.1,
+        0.15
+      ],
+      "duration_s": 5,
+      "elapsed_s": 6.833,
+      "returncode": 0,
+      "passed": true,
+      "log": "038_round07_positive.log"
+    },
+    {
+      "index": 39,
+      "round": 7,
+      "case": "negative",
+      "input_rad": [
+        -0.15,
+        0.2,
+        -0.2,
+        -0.1,
+        0.15,
+        -0.1,
+        -0.15
+      ],
+      "duration_s": 5,
+      "elapsed_s": 9.192,
+      "returncode": 0,
+      "passed": true,
+      "log": "039_round07_negative.log"
+    },
+    {
+      "index": 40,
+      "round": 7,
+      "case": "random",
+      "input_rad": [
+        -0.1862,
+        -0.0422,
+        -0.0027,
+        0.0581,
+        0.0131,
+        -0.0938,
+        -0.195
+      ],
+      "duration_s": 5,
+      "elapsed_s": 9.26,
+      "returncode": 0,
+      "passed": true,
+      "log": "040_round07_random.log"
+    },
+    {
+      "index": 41,
+      "round": 7,
+      "case": "zero_before_ik",
+      "input_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "duration_s": 5,
+      "elapsed_s": 6.322,
+      "returncode": 0,
+      "passed": true,
+      "log": "041_round07_zero_before_ik.log"
+    },
+    {
+      "index": 42,
+      "round": 7,
+      "case": "fk_ik",
+      "input_rad": [
+        0.1,
+        -0.1,
+        0.1,
+        0.05,
+        -0.1,
+        0.05,
+        0.1
+      ],
+      "duration_s": 5,
+      "elapsed_s": 8.661,
+      "returncode": 0,
+      "passed": true,
+      "log": "042_round07_fk_ik.log"
+    },
+    {
+      "index": 43,
+      "round": 8,
+      "case": "zero_start",
+      "input_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "duration_s": 5,
+      "elapsed_s": 8.759,
+      "returncode": 0,
+      "passed": true,
+      "log": "043_round08_zero_start.log"
+    },
+    {
+      "index": 44,
+      "round": 8,
+      "case": "positive",
+      "input_rad": [
+        0.15,
+        -0.2,
+        0.2,
+        0.1,
+        -0.15,
+        0.1,
+        0.15
+      ],
+      "duration_s": 5,
+      "elapsed_s": 9.084,
+      "returncode": 0,
+      "passed": true,
+      "log": "044_round08_positive.log"
+    },
+    {
+      "index": 45,
+      "round": 8,
+      "case": "negative",
+      "input_rad": [
+        -0.15,
+        0.2,
+        -0.2,
+        -0.1,
+        0.15,
+        -0.1,
+        -0.15
+      ],
+      "duration_s": 5,
+      "elapsed_s": 8.625,
+      "returncode": 0,
+      "passed": true,
+      "log": "045_round08_negative.log"
+    },
+    {
+      "index": 46,
+      "round": 8,
+      "case": "random",
+      "input_rad": [
+        -0.0691,
+        0.0936,
+        -0.0628,
+        -0.0943,
+        0.1799,
+        -0.1733,
+        -0.0548
+      ],
+      "duration_s": 5,
+      "elapsed_s": 6.318,
+      "returncode": 0,
+      "passed": true,
+      "log": "046_round08_random.log"
+    },
+    {
+      "index": 47,
+      "round": 8,
+      "case": "zero_before_ik",
+      "input_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "duration_s": 5,
+      "elapsed_s": 8.767,
+      "returncode": 0,
+      "passed": true,
+      "log": "047_round08_zero_before_ik.log"
+    },
+    {
+      "index": 48,
+      "round": 8,
+      "case": "fk_ik",
+      "input_rad": [
+        0.1,
+        -0.1,
+        0.1,
+        0.05,
+        -0.1,
+        0.05,
+        0.1
+      ],
+      "duration_s": 5,
+      "elapsed_s": 6.333,
+      "returncode": 0,
+      "passed": true,
+      "log": "048_round08_fk_ik.log"
+    },
+    {
+      "index": 49,
+      "round": 9,
+      "case": "zero_start",
+      "input_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "duration_s": 5,
+      "elapsed_s": 8.826,
+      "returncode": 0,
+      "passed": true,
+      "log": "049_round09_zero_start.log"
+    },
+    {
+      "index": 50,
+      "round": 9,
+      "case": "positive",
+      "input_rad": [
+        0.15,
+        -0.2,
+        0.2,
+        0.1,
+        -0.15,
+        0.1,
+        0.15
+      ],
+      "duration_s": 5,
+      "elapsed_s": 10.051,
+      "returncode": 0,
+      "passed": true,
+      "log": "050_round09_positive.log"
+    },
+    {
+      "index": 51,
+      "round": 9,
+      "case": "negative",
+      "input_rad": [
+        -0.15,
+        0.2,
+        -0.2,
+        -0.1,
+        0.15,
+        -0.1,
+        -0.15
+      ],
+      "duration_s": 5,
+      "elapsed_s": 8.234,
+      "returncode": 0,
+      "passed": true,
+      "log": "051_round09_negative.log"
+    },
+    {
+      "index": 52,
+      "round": 9,
+      "case": "random",
+      "input_rad": [
+        0.0471,
+        -0.099,
+        0.1353,
+        0.127,
+        -0.0721,
+        0.0539,
+        0.1775
+      ],
+      "duration_s": 5,
+      "elapsed_s": 8.671,
+      "returncode": 0,
+      "passed": true,
+      "log": "052_round09_random.log"
+    },
+    {
+      "index": 53,
+      "round": 9,
+      "case": "zero_before_ik",
+      "input_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "duration_s": 5,
+      "elapsed_s": 8.954,
+      "returncode": 0,
+      "passed": true,
+      "log": "053_round09_zero_before_ik.log"
+    },
+    {
+      "index": 54,
+      "round": 9,
+      "case": "fk_ik",
+      "input_rad": [
+        0.1,
+        -0.1,
+        0.1,
+        0.05,
+        -0.1,
+        0.05,
+        0.1
+      ],
+      "duration_s": 5,
+      "elapsed_s": 9.121,
+      "returncode": 0,
+      "passed": true,
+      "log": "054_round09_fk_ik.log"
+    },
+    {
+      "index": 55,
+      "round": 10,
+      "case": "zero_start",
+      "input_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "duration_s": 5,
+      "elapsed_s": 9.154,
+      "returncode": 0,
+      "passed": true,
+      "log": "055_round10_zero_start.log"
+    },
+    {
+      "index": 56,
+      "round": 10,
+      "case": "positive",
+      "input_rad": [
+        0.15,
+        -0.2,
+        0.2,
+        0.1,
+        -0.15,
+        0.1,
+        0.15
+      ],
+      "duration_s": 5,
+      "elapsed_s": 8.78,
+      "returncode": 0,
+      "passed": true,
+      "log": "056_round10_positive.log"
+    },
+    {
+      "index": 57,
+      "round": 10,
+      "case": "negative",
+      "input_rad": [
+        -0.15,
+        0.2,
+        -0.2,
+        -0.1,
+        0.15,
+        -0.1,
+        -0.15
+      ],
+      "duration_s": 5,
+      "elapsed_s": 9.092,
+      "returncode": 0,
+      "passed": true,
+      "log": "057_round10_negative.log"
+    },
+    {
+      "index": 58,
+      "round": 10,
+      "case": "random",
+      "input_rad": [
+        0.0205,
+        -0.0811,
+        0.0759,
+        0.1517,
+        -0.1638,
+        -0.1841,
+        -0.1334
+      ],
+      "duration_s": 5,
+      "elapsed_s": 7.232,
+      "returncode": 0,
+      "passed": true,
+      "log": "058_round10_random.log"
+    },
+    {
+      "index": 59,
+      "round": 10,
+      "case": "zero_before_ik",
+      "input_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "duration_s": 5,
+      "elapsed_s": 7.814,
+      "returncode": 0,
+      "passed": true,
+      "log": "059_round10_zero_before_ik.log"
+    },
+    {
+      "index": 60,
+      "round": 10,
+      "case": "fk_ik",
+      "input_rad": [
+        0.1,
+        -0.1,
+        0.1,
+        0.05,
+        -0.1,
+        0.05,
+        0.1
+      ],
+      "duration_s": 5,
+      "elapsed_s": 7.523,
+      "returncode": 0,
+      "passed": true,
+      "log": "060_round10_fk_ik.log"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+Type: control_msgs/msg/DynamicJointState
+
+Publisher count: 1
+
+Node name: joint_state_broadcaster
+Node namespace: /
+Topic type: control_msgs/msg/DynamicJointState
+Topic type hash: RIHS01_18024c98a62697680f581108eeed40b28fb4542fa0ac5a8e36f56c62b6813d26
+Endpoint type: PUBLISHER
+GID: 01.0f.a0.0f.10.10.8e.e1.00.00.00.00.00.00.63.03
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: TRANSIENT_LOCAL
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 1
+
+Node name: linglong_control_diagnostics
+Node namespace: /
+Topic type: control_msgs/msg/DynamicJointState
+Topic type hash: RIHS01_18024c98a62697680f581108eeed40b28fb4542fa0ac5a8e36f56c62b6813d26
+Endpoint type: SUBSCRIPTION
+GID: 01.0f.a0.0f.12.10.b6.c9.00.00.00.00.00.00.13.04
+QoS profile:
+  Reliability: BEST_EFFORT
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+

@@ -1,0 +1,311 @@
+    PID    PPID STAT ELAPSED %CPU   RSS COMMAND
+      1       0 Ss       427  0.7 14620 /sbin/init splash
+      2       0 S        427  0.0     0 [kthreadd]
+      3       2 S        427  0.0     0 [pool_workqueue_release]
+      4       2 I<       427  0.0     0 [kworker/R-rcu_gp]
+      5       2 I<       427  0.0     0 [kworker/R-sync_wq]
+      6       2 I<       427  0.0     0 [kworker/R-kvfree_rcu_reclaim]
+      7       2 I<       427  0.0     0 [kworker/R-slub_flushwq]
+      8       2 I<       427  0.0     0 [kworker/R-netns]
+     10       2 I<       427  0.0     0 [kworker/0:0H-kblockd]
+     12       2 I        427  0.0     0 [kworker/u512:0-ipv6_addrconf]
+     13       2 I<       427  0.0     0 [kworker/R-mm_percpu_wq]
+     14       2 S        427  0.0     0 [ksoftirqd/0]
+     15       2 I        427  0.0     0 [rcu_preempt]
+     16       2 S        427  0.0     0 [rcu_exp_par_gp_kthread_worker/1]
+     17       2 S        427  0.0     0 [rcu_exp_gp_kthread_worker]
+     18       2 S        427  0.0     0 [migration/0]
+     19       2 S        427  0.0     0 [kprobe-optimizer]
+     20       2 S        427  0.0     0 [idle_inject/0]
+     21       2 S        427  0.0     0 [cpuhp/0]
+     22       2 S        427  0.0     0 [cpuhp/1]
+     23       2 S        427  0.0     0 [idle_inject/1]
+     24       2 S        427  0.0     0 [migration/1]
+     25       2 S        427  0.0     0 [ksoftirqd/1]
+     27       2 I<       427  0.0     0 [kworker/1:0H-kblockd]
+     30       2 S        427  0.0     0 [kdevtmpfs]
+     31       2 I<       427  0.0     0 [kworker/R-inet_frag_wq]
+     32       2 I        427  0.0     0 [rcu_tasks_kthread]
+     33       2 I        427  0.0     0 [rcu_tasks_rude_kthread]
+     34       2 S        427  0.0     0 [kauditd]
+     35       2 S        427  0.0     0 [khungtaskd]
+     36       2 S        427  0.0     0 [oom_reaper]
+     39       2 I<       427  0.0     0 [kworker/R-writeback]
+     40       2 S        427  0.0     0 [kcompactd0]
+     41       2 SN       427  0.0     0 [ksmd]
+     42       2 SN       427  0.0     0 [khugepaged]
+     43       2 I<       427  0.0     0 [kworker/R-kblockd]
+     44       2 I<       427  0.0     0 [kworker/R-blkcg_punt_bio]
+     45       2 I<       427  0.0     0 [kworker/R-kintegrityd]
+     46       2 S        426  0.0     0 [irq/9-acpi]
+     48       2 I<       426  0.0     0 [kworker/R-tpm_dev_wq]
+     49       2 I<       426  0.0     0 [kworker/R-ata_sff]
+     50       2 I<       426  0.0     0 [kworker/R-md_bitmap]
+     51       2 I<       426  0.0     0 [kworker/R-md_llbitmap_io]
+     52       2 I<       426  0.0     0 [kworker/R-md_llbitmap_unplug]
+     53       2 I<       426  0.0     0 [kworker/R-edac-poller]
+     54       2 I<       426  0.0     0 [kworker/R-devfreq_wq]
+     55       2 S        425  0.0     0 [watchdogd]
+     56       2 I<       425  0.0     0 [kworker/R-quota_events_unbound]
+     57       2 S        425  0.0     0 [kswapd0]
+     58       2 S        425  0.0     0 [ecryptfs-kthread]
+     59       2 I<       425  0.0     0 [kworker/R-kthrotld]
+     60       2 S        425  0.0     0 [irq/24-pciehp]
+     61       2 S        425  0.0     0 [irq/25-pciehp]
+     62       2 S        425  0.0     0 [irq/26-pciehp]
+     63       2 S        425  0.0     0 [irq/27-pciehp]
+     64       2 S        425  0.0     0 [irq/28-pciehp]
+     65       2 S        425  0.0     0 [irq/29-pciehp]
+     66       2 S        425  0.0     0 [irq/30-pciehp]
+     67       2 S        425  0.0     0 [irq/31-pciehp]
+     68       2 S        425  0.0     0 [irq/32-pciehp]
+     69       2 S        425  0.0     0 [irq/33-pciehp]
+     70       2 S        425  0.0     0 [irq/34-pciehp]
+     71       2 S        425  0.0     0 [irq/35-pciehp]
+     72       2 S        425  0.0     0 [irq/36-pciehp]
+     73       2 S        425  0.0     0 [irq/37-pciehp]
+     74       2 S        425  0.0     0 [irq/38-pciehp]
+     75       2 S        425  0.0     0 [irq/39-pciehp]
+     76       2 S        425  0.0     0 [irq/40-pciehp]
+     77       2 S        425  0.0     0 [irq/41-pciehp]
+     78       2 S        425  0.0     0 [irq/42-pciehp]
+     79       2 S        425  0.0     0 [irq/43-pciehp]
+     80       2 S        425  0.0     0 [irq/44-pciehp]
+     81       2 S        425  0.0     0 [irq/45-pciehp]
+     82       2 S        425  0.0     0 [irq/46-pciehp]
+     83       2 S        425  0.0     0 [irq/47-pciehp]
+     84       2 S        425  0.0     0 [irq/48-pciehp]
+     85       2 S        425  0.0     0 [irq/49-pciehp]
+     86       2 S        425  0.0     0 [irq/50-pciehp]
+     87       2 S        425  0.0     0 [irq/51-pciehp]
+     88       2 S        425  0.0     0 [irq/52-pciehp]
+     89       2 S        425  0.0     0 [irq/53-pciehp]
+     90       2 S        425  0.0     0 [irq/54-pciehp]
+     91       2 S        425  0.0     0 [irq/55-pciehp]
+     92       2 I<       425  0.0     0 [kworker/R-acpi_thermal_pm]
+     94       2 S        425  0.0     0 [scsi_eh_0]
+     95       2 I<       425  0.0     0 [kworker/R-scsi_tmf_0]
+     96       2 S        425  0.0     0 [scsi_eh_1]
+     97       2 I<       425  0.0     0 [kworker/R-scsi_tmf_1]
+    101       2 I<       425  0.0     0 [kworker/R-mld]
+    102       2 I<       425  0.0     0 [kworker/R-ipv6_addrconf]
+    103       2 I        425  0.0     0 [kworker/u512:1-ipv6_addrconf]
+    104       2 I<       425  0.0     0 [kworker/R-kstrp]
+    106       2 I<       425  0.0     0 [kworker/u515:0-hci0]
+    107       2 I<       425  0.0     0 [kworker/u516:0-ttm]
+    108       2 I<       425  0.0     0 [kworker/u517:0-ttm]
+    110       2 I        425  0.0     0 [kworker/0:2-events]
+    113       2 I        425  0.0     0 [kworker/u514:1-events_freezable_pwr_efficient]
+    121       2 I<       425  0.0     0 [kworker/R-charger_manager]
+    169       2 I        424  0.0     0 [kworker/1:2-events]
+    170       2 I<       424  0.0     0 [kworker/R-mpt_poll_0]
+    171       2 I<       424  0.0     0 [kworker/R-mpt/0]
+    172       2 S        424  0.0     0 [scsi_eh_2]
+    174       2 I<       424  0.0     0 [kworker/R-scsi_tmf_2]
+    175       2 S        424  0.0     0 [scsi_eh_3]
+    176       2 I<       424  0.0     0 [kworker/R-scsi_tmf_3]
+    177       2 S        424  0.0     0 [scsi_eh_4]
+    178       2 S        424  0.0     0 [scsi_eh_5]
+    179       2 I<       424  0.0     0 [kworker/R-scsi_tmf_5]
+    180       2 I<       424  0.0     0 [kworker/R-scsi_tmf_4]
+    181       2 S        424  0.0     0 [scsi_eh_6]
+    182       2 I<       424  0.0     0 [kworker/R-scsi_tmf_6]
+    184       2 S        424  0.0     0 [scsi_eh_7]
+    185       2 I<       424  0.0     0 [kworker/R-scsi_tmf_7]
+    187       2 S        424  0.0     0 [scsi_eh_8]
+    189       2 I<       424  0.0     0 [kworker/R-scsi_tmf_8]
+    190       2 S        424  0.0     0 [scsi_eh_9]
+    191       2 I<       424  0.0     0 [kworker/R-scsi_tmf_9]
+    192       2 S        424  0.0     0 [scsi_eh_10]
+    193       2 I<       424  0.0     0 [kworker/R-scsi_tmf_10]
+    194       2 S        424  0.0     0 [scsi_eh_11]
+    195       2 I<       424  0.0     0 [kworker/R-scsi_tmf_11]
+    196       2 S        424  0.0     0 [scsi_eh_12]
+    198       2 I<       424  0.0     0 [kworker/R-scsi_tmf_12]
+    199       2 S        424  0.0     0 [scsi_eh_13]
+    201       2 I<       424  0.0     0 [kworker/R-scsi_tmf_13]
+    202       2 S        424  0.0     0 [scsi_eh_14]
+    203       2 I<       424  0.0     0 [kworker/R-scsi_tmf_14]
+    204       2 S        424  0.0     0 [scsi_eh_15]
+    206       2 I<       424  0.0     0 [kworker/R-scsi_tmf_15]
+    207       2 S        424  0.0     0 [scsi_eh_16]
+    209       2 I<       424  0.0     0 [kworker/R-scsi_tmf_16]
+    210       2 S        424  0.0     0 [scsi_eh_17]
+    211       2 I<       424  0.0     0 [kworker/R-scsi_tmf_17]
+    212       2 S        424  0.0     0 [scsi_eh_18]
+    213       2 I<       424  0.0     0 [kworker/R-scsi_tmf_18]
+    214       2 S        424  0.0     0 [scsi_eh_19]
+    215       2 I<       424  0.0     0 [kworker/R-scsi_tmf_19]
+    218       2 S        424  0.0     0 [scsi_eh_20]
+    219       2 I<       424  0.0     0 [kworker/R-scsi_tmf_20]
+    220       2 S        424  0.0     0 [scsi_eh_21]
+    221       2 I<       424  0.0     0 [kworker/R-scsi_tmf_21]
+    222       2 S        424  0.0     0 [scsi_eh_22]
+    223       2 I<       424  0.0     0 [kworker/R-scsi_tmf_22]
+    224       2 S        424  0.0     0 [scsi_eh_23]
+    225       2 I<       424  0.0     0 [kworker/R-scsi_tmf_23]
+    226       2 S        424  0.0     0 [scsi_eh_24]
+    227       2 I<       424  0.0     0 [kworker/R-scsi_tmf_24]
+    229       2 S        424  0.0     0 [scsi_eh_25]
+    230       2 I<       424  0.0     0 [kworker/R-scsi_tmf_25]
+    231       2 S        424  0.0     0 [scsi_eh_26]
+    232       2 I<       424  0.0     0 [kworker/R-scsi_tmf_26]
+    233       2 S        424  0.0     0 [scsi_eh_27]
+    234       2 I<       424  0.0     0 [kworker/R-scsi_tmf_27]
+    235       2 S        424  0.0     0 [scsi_eh_28]
+    236       2 I<       424  0.0     0 [kworker/R-scsi_tmf_28]
+    237       2 S        424  0.0     0 [scsi_eh_29]
+    238       2 I<       424  0.0     0 [kworker/R-scsi_tmf_29]
+    239       2 S        424  0.0     0 [scsi_eh_30]
+    241       2 I<       424  0.0     0 [kworker/R-scsi_tmf_30]
+    242       2 S        424  0.0     0 [scsi_eh_31]
+    243       2 I<       424  0.0     0 [kworker/R-scsi_tmf_31]
+    244       2 S        424  0.0     0 [scsi_eh_32]
+    245       2 I<       424  0.0     0 [kworker/R-scsi_tmf_32]
+    265       2 I        424  0.0     0 [kworker/u513:25-flush-8:0]
+    267       2 I        424  0.0     0 [kworker/u513:27-writeback]
+    268       2 I        424  0.0     0 [kworker/u513:28-events_freezable_pwr_efficient]
+    272       2 I<       424  0.0     0 [kworker/0:1H-kblockd]
+    273       2 I<       424  0.0     0 [kworker/1:1H-kblockd]
+    275       2 I        424  0.0     0 [kworker/u514:2-ext4-rsv-conversion]
+    319       2 S        419  0.1     0 [jbd2/sda2-8]
+    320       2 I<       419  0.0     0 [kworker/R-ext4-rsv-conversion]
+    368       1 S<s      419  0.1 17064 /usr/lib/systemd/systemd-journald
+    390       2 I        419  0.0     0 [kworker/0:4-events]
+    399       2 S        419  0.0     0 [irq/16-vmwgfx]
+    400       2 I        419  0.0     0 [kworker/1:3-events]
+    401       2 I<       419  0.0     0 [kworker/R-ttm]
+    428       1 Ssl      418  0.0  1712 vmware-vmblock-fuse /run/vmblock-fuse -o rw,subtype=vmware-vmblock,default_permissions,allow_other,dev,suid
+    451       1 Ss       418  0.1 10760 /usr/lib/systemd/systemd-udevd
+    452       2 I        418  0.0     0 [kworker/u514:3-events_unbound]
+    519       2 S        418  0.0     0 [psimon]
+    548       1 Ss       418  0.0  7844 /usr/lib/systemd/systemd-oomd
+    552       1 Ss       418  0.0 13784 /usr/lib/systemd/systemd-resolved
+    559       1 Ssl      418  0.0  8316 /usr/lib/systemd/systemd-timesyncd
+    700       1 Ss       417  0.0 12664 /usr/bin/VGAuthService
+    714       1 Ssl      417  0.2  9840 /usr/bin/vmtoolsd
+    743       2 S        417  0.0     0 [irq/57-vmw_vmci]
+    744       2 S        417  0.0     0 [irq/58-vmw_vmci]
+    745       2 S        417  0.0     0 [irq/59-vmw_vmci]
+    883       1 Ss       416  0.0  4788 avahi-daemon: running [skr-VMware-Virtual-Platform.local]
+    884       1 Ss       416  0.1  7504 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+    890       2 I<       416  0.0     0 [kworker/u516:1-ttm]
+    899       1 Ssl      416  0.0 17000 /usr/libexec/gnome-remote-desktop-daemon --system
+    926       1 Ssl      416  0.0 15384 /usr/bin/lttng-sessiond
+    949       1 Ssl      416  0.1 13344 /usr/lib/polkit-1/polkitd --no-debug
+    957       1 Ssl      416  0.0  8052 /usr/libexec/power-profiles-daemon
+    960     926 S        416  0.0  2156 /usr/bin/lttng-sessiond
+    981       1 Ssl      416  1.4 49392 /usr/lib/snapd/snapd
+    997       1 Ssl      416  0.0  8544 /usr/libexec/accounts-daemon
+   1003       1 Ss       416  0.0  3064 /usr/sbin/cron -f -P
+   1014       1 Ssl      416  0.0  7432 /usr/libexec/switcheroo-control
+   1034       1 Ss       415  0.0  9256 /usr/lib/systemd/systemd-logind
+   1035       1 Ssl      415  0.0 15064 /usr/libexec/udisks2/udisksd
+   1084       1 Ssl      415  0.0  6600 /usr/sbin/rsyslogd -n -iNONE
+   1091     883 S        415  0.0  1588 avahi-daemon: chroot helper
+   1120       1 Ssl      415  0.0 20096 /usr/sbin/NetworkManager --no-daemon
+   1124       1 Ss       415  0.0  6660 /usr/sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev
+   1182       1 Ssl      414  0.0 13304 /usr/sbin/ModemManager
+   1387       1 Ss       412  0.0 12336 /usr/sbin/cupsd -l
+   1391       1 Ssl      412  0.0 25744 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+   1397    1387 S        412  0.0  7112 /usr/lib/cups/notifier/dbus dbus://
+   1413       1 Ssl      412  0.0 20604 /usr/sbin/cups-browsed
+   1419       1 Ssl      412  0.0  9936 /usr/sbin/gdm3
+   1430       1 Ss       412  0.0  2408 /usr/sbin/kerneloops --test
+   1442       1 Ss       412  0.0  2520 /usr/sbin/kerneloops
+   1479       2 S        411  0.0     0 [psimon]
+   1536       2 I<       411  0.0     0 [kworker/u515:1-hci0]
+   1548       1 Ss       411  0.0  6904 /usr/libexec/bluetooth/bluetoothd
+   1763       1 SNsl     410  0.0  3680 /usr/libexec/rtkit-daemon
+   2134       1 Ssl      406  0.0 15224 /usr/libexec/colord
+   2317       1 Ssl      405  0.0  9748 /usr/libexec/upowerd
+   2922    1419 Sl       376  0.0 10940 gdm-session-worker [pam/gdm-password]
+   2942       1 Ss       372  0.1 12824 /usr/lib/systemd/systemd --user
+   2943    2942 S        372  0.0  3664 (sd-pam)
+   2954    2942 S<sl     371  0.0 13072 /usr/bin/pipewire
+   2957    2942 Ssl      371  0.0  5992 /usr/bin/pipewire -c filter-chain.conf
+   2964    2942 S<sl     371  0.0 33096 /usr/bin/wireplumber
+   2965    2942 S<sl     371  0.0 12000 /usr/bin/pipewire-pulse
+   2971    2942 Ss       371  0.1  6868 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+   2972    2942 SLsl     371  0.0 10956 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+   2982    2942 Ssl      371  0.0  8068 /usr/libexec/xdg-document-portal
+   3003    2942 Ssl      371  0.0  6732 /usr/libexec/xdg-permission-store
+   3010    2982 Ss       371  0.0  2164 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+   3037    2922 Ssl+     371  0.0  6800 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+   3056    3037 Sl+      371  0.0 17312 /usr/libexec/gnome-session-binary --session=ubuntu
+   3121    2942 Ssl      370  0.0  7304 /usr/libexec/gcr-ssh-agent --base-dir /run/user/1000/gcr
+   3122    2942 Ssl      370  0.0  5856 /usr/libexec/gnome-session-ctl --monitor
+   3131    2942 Ssl      370  0.0  8804 /usr/libexec/gvfsd
+   3147    2942 Sl       370  0.0  7784 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+   3149    2942 Ssl      370  0.0 19572 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+   3183    3149 Sl       370  0.0  8184 /usr/libexec/at-spi-bus-launcher --launch-immediately
+   3184    2942 Ssl      370  2.4 352724 /usr/bin/gnome-shell
+   3197    3183 S        370  0.0  5348 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+   3221       2 I<       370  0.0     0 [kworker/u517:3-ttm]
+   3238    2942 Sl       370  0.0  7832 /usr/libexec/at-spi2-registryd --use-gnome-session
+   3263    2942 Sl       369  0.0 18248 /usr/libexec/gnome-shell-calendar-server
+   3273    2942 Ssl      369  0.0 44320 /usr/libexec/evolution-source-registry
+   3275    2942 Sl       369  0.0 27696 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+   3277    2942 Ssl      369  0.0 14512 /usr/bin/ibus-daemon --panel disable
+   3278    2942 Ssl      369  0.0  7392 /usr/libexec/gsd-a11y-settings
+   3279    2942 Ssl      369  0.0 22028 /usr/libexec/gsd-color
+   3280    2942 Ssl      369  0.0 12952 /usr/libexec/gsd-datetime
+   3281    2942 Ssl      369  0.0  8596 /usr/libexec/gsd-housekeeping
+   3282    2942 Ssl      369  0.0 21308 /usr/libexec/gsd-keyboard
+   3283    2942 Ssl      369  0.0 27184 /usr/libexec/gsd-media-keys
+   3284    2942 Ssl      369  0.0 25808 /usr/libexec/gsd-power
+   3285    2942 Ssl      369  0.0 12000 /usr/libexec/gsd-print-notifications
+   3287    2942 Ssl      369  0.0  7232 /usr/libexec/gsd-rfkill
+   3292    2942 Ssl      369  0.0  6692 /usr/libexec/gsd-screensaver-proxy
+   3293    2942 Ssl      369  0.0 12536 /usr/libexec/gsd-sharing
+   3297    2942 Ssl      369  0.0  8904 /usr/libexec/gsd-smartcard
+   3299    2942 Ssl      369  0.0 10500 /usr/libexec/gsd-sound
+   3303    2942 Ssl      369  0.0 22160 /usr/libexec/gsd-wacom
+   3313    3149 Sl       369  0.0  7732 /usr/libexec/gsd-disk-utility-notify
+   3316    3149 Sl       369  0.1 70532 /usr/libexec/evolution-data-server/evolution-alarm-notify
+   3341    2942 Sl       369  0.2 38748 /usr/bin/vmtoolsd -n vmusr --blockFd 3 --uinputFd 4
+   3465    2942 Sl       369  0.0 15640 /usr/libexec/gsd-printer
+   3479    2942 Ssl      369  0.0 12056 /usr/libexec/gvfs-udisks2-volume-monitor
+   3483    3277 Sl       369  0.0  7748 /usr/libexec/ibus-memconf
+   3484    3277 Sl       369  0.4 31008 /usr/libexec/ibus-extension-gtk3
+   3505    2942 Sl       368  0.0  7764 /usr/libexec/ibus-portal
+   3563    2942 Ssl      368  0.0  7000 /usr/libexec/gvfs-goa-volume-monitor
+   3568    2942 Sl       368  0.0 25152 /usr/libexec/goa-daemon
+   3582    2942 Sl       368  0.0 10012 /usr/libexec/goa-identity-service
+   3589    2942 Ssl      368  0.0  7512 /usr/libexec/gvfs-gphoto2-volume-monitor
+   3594    2942 Ssl      368  0.0  8580 /usr/libexec/gvfs-afc-volume-monitor
+   3602    2942 Ssl      368  0.0 26040 /usr/libexec/evolution-calendar-factory
+   3603    2942 Ssl      368  0.0  7028 /usr/libexec/gvfs-mtp-volume-monitor
+   3611    3184 S        368  0.0 93012 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.D737V3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients
+   3621    2942 Ssl      368  0.0 37728 /usr/libexec/evolution-addressbook-factory
+   3643    2942 Ss       368  0.0 12160 /snap/snapd-desktop-integration/343/usr/bin/snapd-desktop-integration
+   3701    3643 Sl       367  0.0 31404 /snap/snapd-desktop-integration/343/usr/bin/snapd-desktop-integration
+   3703    3277 Sl       367  0.0  7860 /usr/libexec/ibus-engine-simple
+   3722    2942 Ssl      367  0.0  6104 /usr/libexec/dconf-service
+   3749    2942 Ssl      367  0.0  7076 /usr/libexec/gvfsd-metadata
+   3750    3131 Sl       367  0.0  9784 /usr/libexec/gvfsd-trash --spawner :1.18 /org/gtk/gvfs/exec_spaw/0
+   3801    2942 SNsl     366  0.0 25328 /usr/libexec/tracker-miner-fs-3
+   3802    2942 Ssl      366  0.0 14980 /usr/libexec/xdg-desktop-portal
+   3808    2942 Ssl      366  0.0 42812 /usr/libexec/xdg-desktop-portal-gnome
+   3817    2942 Sl       366  0.0 27680 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+   3871    2942 Ssl      365  0.0 85836 /usr/libexec/gsd-xsettings
+   3890    3184 Sl       365  0.1 74540 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+   3925    2942 Ssl      365  0.0 27656 /usr/libexec/xdg-desktop-portal-gtk
+   3942    2942 Sl       365  0.0 25964 /usr/libexec/ibus-x11
+   3949    3184 Sl       365  0.0 92660 /usr/libexec/mutter-x11-frames
+   4059    2942 Ssl      339  0.3 73856 /usr/libexec/gnome-terminal-server
+   4066    4059 Ss       339  0.0  6148 bash
+   4105    4066 Sl+      331  0.3 45896 /usr/bin/python3 /opt/ros/jazzy/bin/ros2 launch linglong_control control.launch.py backend:=mock rviz:=false
+   4106    4066 S+       331  0.0  2524 tee verification/longrun-launch-20261001-130526.log
+   4111    4105 Sl+      329  1.7 37008 /opt/ros/jazzy/lib/robot_state_publisher/robot_state_publisher --ros-args --params-file /tmp/launch_params_f40uk846
+   4112    4105 Sl+      329  8.5 55732 /opt/ros/jazzy/lib/controller_manager/ros2_control_node --ros-args --params-file /home/skr/linglong_1025_2/ros2_ws/install-ubuntu/linglong_control/share/linglong_control/config/controllers.yaml --params-file /tmp/launch_params_24ypvsj8 -r ~/robot_description:=/robot_description
+   4114    4105 Sl+      329  7.0 77240 python3 /home/skr/linglong_1025_2/ros2_ws/install-ubuntu/linglong_control/lib/linglong_control/control_diagnostics --ros-args --params-file /tmp/launch_params_8b260ia8
+   4194       2 I<       318  0.0     0 [kworker/1:2H]
+   4204    4059 Ss       317  0.0  6132 bash
+   4241    2942 Sl       313  0.3 75520 /usr/bin/python3 -c from ros2cli.daemon.daemonize import main; main() --name ros2-daemon --ros-domain-id 42 --rmw-implementation rmw_fastrtps_cpp
+   4268    3149 Sl       308  0.0 37172 /usr/bin/update-notifier
+   4318    4204 S+       302  0.0  4552 bash longrun-evidence/run_with_evidence.sh
+   4348    4318 Sl+      301  1.5 73476 python3 /home/skr/linglong_1025_2/ros2_ws/longrun-evidence/evidence_probe.py /home/skr/linglong_1025_2/ros2_ws/verification/evidence-20261001-130556
+   5124       2 I         70  0.0     0 [kworker/0:0-events]
+   5284       2 I         14  0.0     0 [kworker/1:0-events]
+   5324    4318 R+         0  100  4756 ps -eo pid,ppid,stat,etimes,pcpu,rss,args

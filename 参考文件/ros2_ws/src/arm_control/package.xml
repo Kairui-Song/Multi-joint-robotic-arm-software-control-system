@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>arm_control</name><version>0.1.0</version>
+  <description>Multi-joint ros2_control with RoboMaster C620, CAN/ZCAN, Loong SDK, simulation and optional IgH transports.</description>
+  <maintainer email="maintainer@example.com">Arm maintainers</maintainer><license>Apache-2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>hardware_interface</depend><depend>pluginlib</depend>
+  <depend>rclcpp</depend><depend>rclcpp_lifecycle</depend>
+  <depend>diagnostic_msgs</depend><depend>std_srvs</depend>
+  <depend>std_msgs</depend><exec_depend>controller_manager_msgs</exec_depend><exec_depend>lifecycle_msgs</exec_depend>
+  <exec_depend>controller_manager</exec_depend><exec_depend>joint_trajectory_controller</exec_depend>
+  <exec_depend>joint_state_broadcaster</exec_depend><exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>launch</exec_depend><exec_depend>launch_ros</exec_depend><exec_depend>ament_index_python</exec_depend>
+  <exec_depend>rclpy</exec_depend><exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>control_msgs</exec_depend><exec_depend>trajectory_msgs</exec_depend>
+  <exec_depend>action_msgs</exec_depend>
+  <exec_depend>rosbag2_transport</exec_depend><exec_depend>rosbag2_storage_default_plugins</exec_depend>
+  <exec_depend>python3-yaml</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

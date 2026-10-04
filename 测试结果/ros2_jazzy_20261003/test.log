@@ -1,0 +1,140 @@
+Starting >>> arm_control
+UpdateCTestConfiguration  from :/home/skr/can_bezier_ws/build/arm_control/CTestConfiguration.ini
+Parse Config file:/home/skr/can_bezier_ws/build/arm_control/CTestConfiguration.ini
+   Site: skr-VMware-Virtual-Platform
+   Build name: Linux-c++
+ Add coverage exclude regular expressions.
+Create new tag: 20261003-0301 - Experimental
+UpdateCTestConfiguration  from :/home/skr/can_bezier_ws/build/arm_control/CTestConfiguration.ini
+Parse Config file:/home/skr/can_bezier_ws/build/arm_control/CTestConfiguration.ini
+Test project /home/skr/can_bezier_ws/build/arm_control
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+      Start  1: safety_core
+
+1: Test command: /home/skr/can_bezier_ws/build/arm_control/test_safety
+1: Working Directory: /home/skr/can_bezier_ws/build/arm_control
+1: Test timeout computed to be: 1500
+1: Safety core and simulated multi-axis fault recovery passed
+ 1/11 Test  #1: safety_core ......................   Passed    0.01 sec
+test 2
+      Start  2: can_core
+
+2: Test command: /home/skr/can_bezier_ws/build/arm_control/test_can
+2: Working Directory: /home/skr/can_bezier_ws/build/arm_control
+2: Test timeout computed to be: 1500
+2: PASS: wire golden vectors, ID mapping, units, stale axis, malformed frame, motor fault, partial-send failure, recovery
+ 2/11 Test  #2: can_core .........................   Passed    0.01 sec
+test 3
+      Start  3: robomaster_core
+
+3: Test command: /home/skr/can_bezier_ws/build/arm_control/test_robomaster
+3: Working Directory: /home/skr/can_bezier_ws/build/arm_control
+3: Test timeout computed to be: 1500
+3: PASS: C620 wire frames, encoder wrap, current limit, closed-loop motion, watchdog, temperature fault, dual-channel mapping/bandwidth
+ 3/11 Test  #3: robomaster_core ..................   Passed    2.97 sec
+test 4
+      Start  4: mit_core
+
+4: Test command: /home/skr/can_bezier_ws/build/arm_control/test_mit
+4: Working Directory: /home/skr/can_bezier_ws/build/arm_control
+4: Test timeout computed to be: 1500
+4: MIT protocol, startup, mapping, timeout, temperature and seven-axis Bezier tests passed
+ 4/11 Test  #4: mit_core .........................   Passed    0.00 sec
+test 5
+      Start  5: configuration
+
+5: Test command: /usr/bin/python3 "/home/skr/can_bezier_ws/src/arm_control/test/test_config.py"
+5: Working Directory: /home/skr/can_bezier_ws/build/arm_control
+5: Test timeout computed to be: 1500
+5: ...........
+5: ----------------------------------------------------------------------
+5: Ran 11 tests in 0.060s
+5: 
+5: OK
+ 5/11 Test  #5: configuration ....................   Passed    0.16 sec
+test 6
+      Start  6: kinematics
+
+6: Test command: /usr/bin/python3 "/home/skr/can_bezier_ws/src/arm_control/test/test_kinematics.py"
+6: Working Directory: /home/skr/can_bezier_ws/build/arm_control
+6: Test timeout computed to be: 1500
+6: ......
+6: ----------------------------------------------------------------------
+6: Ran 6 tests in 0.082s
+6: 
+6: OK
+ 6/11 Test  #6: kinematics .......................   Passed    0.37 sec
+test 7
+      Start  7: trajectory_contract
+
+7: Test command: /usr/bin/python3 "/home/skr/can_bezier_ws/src/arm_control/test/test_trajectory.py"
+7: Working Directory: /home/skr/can_bezier_ws/build/arm_control
+7: Test timeout computed to be: 1500
+7: ...........
+7: ----------------------------------------------------------------------
+7: Ran 11 tests in 0.022s
+7: 
+7: OK
+7: Trajectory completed; final encoder positions agree with the joint targets
+7: Trajectory completed; final encoder positions agree with the joint targets
+ 7/11 Test  #7: trajectory_contract ..............   Passed    0.12 sec
+test 8
+      Start  8: recovery_contract
+
+8: Test command: /usr/bin/python3 "/home/skr/can_bezier_ws/src/arm_control/test/test_recover.py"
+8: Working Directory: /home/skr/can_bezier_ws/build/arm_control
+8: Test timeout computed to be: 1500
+8: Service unavailable: list_controllers
+8: .Operation rejected: load_controller
+8: .Deactivate other controllers before recovery: other
+8: ..
+8: ----------------------------------------------------------------------
+8: Ran 4 tests in 0.012s
+8: 
+8: OK
+8: Hardware and controllers active; old trajectory goals discarded. Submit a new goal.
+ 8/11 Test  #8: recovery_contract ................   Passed    0.10 sec
+test 9
+      Start  9: continuous_path
+
+9: Test command: /usr/bin/python3 "/home/skr/can_bezier_ws/src/arm_control/test/test_path.py"
+9: Working Directory: /home/skr/can_bezier_ws/build/arm_control
+9: Test timeout computed to be: 1500
+9: ......
+9: ----------------------------------------------------------------------
+9: Ran 6 tests in 0.007s
+9: 
+9: OK
+ 9/11 Test  #9: continuous_path ..................   Passed    0.07 sec
+test 10
+      Start 10: wire_pipeline
+
+10: Test command: /usr/bin/python3 "/home/skr/can_bezier_ws/src/arm_control/test/test_wire_pipeline.py" "/home/skr/can_bezier_ws/build/arm_control/trajectory_wire"
+10: Working Directory: /home/skr/can_bezier_ws/build/arm_control
+10: Test timeout computed to be: 1500
+10: PASS: FK/IK -> Bezier -> C620 current frames -> six-axis plant -> encoder -> FK; residual: [-9.63135467e-06 -2.15845599e-04 -4.99172003e-05  6.15653589e-04
+10:  -2.12604706e-04 -3.58371414e-04]
+10/11 Test #10: wire_pipeline ....................   Passed    5.19 sec
+test 11
+      Start 11: system_lifecycle
+
+11: Test command: /home/skr/can_bezier_ws/build/arm_control/test_system
+11: Working Directory: /home/skr/can_bezier_ws/build/arm_control
+11: Test timeout computed to be: 1500
+11: [WARN] [1790996498.403692380] [rcl]: ROS_LOCALHOST_ONLY is deprecated but still honored if it is enabled. Use ROS_AUTOMATIC_DISCOVERY_RANGE and ROS_STATIC_PEERS instead.
+11: [WARN] [1790996498.403733891] [rcl]: 'localhost_only' is enabled, 'automatic_discovery_range' and 'static_peers' will be ignored.
+11: Lifecycle, command limit, NaN rejection, watchdog and recovery passed
+11/11 Test #11: system_lifecycle .................   Passed    0.26 sec
+
+100% tests passed, 0 tests failed out of 11
+
+Total Test time (real) =   9.26 sec
+Finished <<< arm_control [9.32s]
+
+Summary: 1 package finished [9.59s]

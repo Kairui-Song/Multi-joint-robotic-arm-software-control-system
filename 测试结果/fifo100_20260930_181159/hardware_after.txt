@@ -1,0 +1,12 @@
+Hardware Component 1
+	name: LinglongSimSystem
+	type: system
+	plugin name: linglong_control/SimSystem
+	state: id=3 label=active
+	read/write rate: 100 Hz
+	is_async: False
+	command interfaces
+		joint_1/position [available] [claimed]
+		joint_2/position [available] [claimed]
+		joint_3/position [available] [claimed]
+		joint_5/position [available] [claimed]

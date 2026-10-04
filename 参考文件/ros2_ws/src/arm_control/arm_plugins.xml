@@ -1,0 +1,5 @@
+<library path="arm_system">
+  <class name="arm_control/ArmSystem" type="arm_control::ArmSystem" base_class_type="hardware_interface::SystemInterface">
+    <description>Position-controlled multi-axis system with CAN, RoboMaster, Loong, simulation and optional EtherCAT transports.</description>
+  </class>
+</library>

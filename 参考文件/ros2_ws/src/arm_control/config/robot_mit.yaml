@@ -1,0 +1,46 @@
+# quanbu_tongshi.py wire profile. Simulation by default; geometry/limits are examples.
+hardware:
+  backend: can_mock
+  cycle_ns: 10000000
+  watchdog_s: 0.05
+  activation_timeout_s: 5.0
+  commissioned: false
+  can_protocol: mit_shared_v1
+  can_interface: can0
+  can_bitrate: 1000000
+  feedback_timeout_s: 0.1
+  protocol_confirmed: false
+  stop_confirmed: false
+  motor_watchdog_confirmed: false
+kinematics:
+  calibrated: false
+  description: Seven-axis reference protocol; replace example geometry and limits before use
+  tool_xyz: [0.1, 0, 0]
+  tool_rpy: [0, 0, 0]
+joints:
+  - &axis
+    name: joint1
+    motor_id: 1
+    master_id: 17
+    p_max: 12.566
+    v_max: 20.0
+    t_max: 120.0
+    kp: 10.0
+    kd: 1.0
+    max_temperature_c: 80.0
+    lower: -1.0
+    upper: 1.0
+    max_velocity: 0.3
+    max_acceleration: 0.5
+    direction: 1
+    gear_ratio: 1.0
+    motor_zero_rad: 0.0
+    origin_xyz: [0, 0, 0.1]
+    origin_rpy: [0, 0, 0]
+    axis: [0, 0, 1]
+  - {<<: *axis, name: joint2, motor_id: 2, master_id: 18, axis: [0, 1, 0]}
+  - {<<: *axis, name: joint3, motor_id: 3, master_id: 19, p_max: 12.5, t_max: 28.0, kp: 12.0, origin_xyz: [0.3, 0, 0], axis: [0, 1, 0]}
+  - {<<: *axis, name: joint4, motor_id: 4, master_id: 20, p_max: 12.5, t_max: 28.0, kp: 18.0, kd: 1.2, origin_xyz: [0.25, 0, 0], axis: [1, 0, 0]}
+  - {<<: *axis, name: joint5, motor_id: 5, master_id: 21, p_max: 12.5, v_max: 50.0, t_max: 10.0, kp: 20.0, origin_xyz: [0.08, 0, 0], axis: [0, 1, 0]}
+  - {<<: *axis, name: joint6, motor_id: 6, master_id: 22, p_max: 12.5, v_max: 50.0, t_max: 10.0, kp: 20.0, origin_xyz: [0.07, 0, 0], axis: [1, 0, 0]}
+  - {<<: *axis, name: joint7, motor_id: 7, master_id: 23, p_max: 12.5, v_max: 50.0, t_max: 10.0, kp: 20.0, origin_xyz: [0.06, 0, 0], axis: [0, 0, 1]}

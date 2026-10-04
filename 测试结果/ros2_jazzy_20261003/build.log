@@ -1,0 +1,85 @@
+Starting >>> arm_control
+--- stderr: arm_control
+/home/skr/can_bezier_ws/src/arm_control/src/system.cpp: In member function ‘virtual arm_control::ArmSystem::CallbackReturn arm_control::ArmSystem::on_init(const hardware_interface::HardwareInfo&)’:
+/home/skr/can_bezier_ws/src/arm_control/src/system.cpp:27:31: warning: ‘virtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::on_init(const hardware_interface::HardwareInfo&)’ is deprecated: Use on_init(const HardwareComponentInterfaceParams & params) instead. [-Wdeprecated-declarations]
+   27 |   if (SystemInterface::on_init(info) != CallbackReturn::SUCCESS) return CallbackReturn::ERROR;
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~
+In file included from /opt/ros/jazzy/include/hardware_interface/hardware_interface/system_interface.hpp:18,
+                 from /home/skr/can_bezier_ws/src/arm_control/include/arm_control/system.hpp:3,
+                 from /home/skr/can_bezier_ws/src/arm_control/src/system.cpp:1:
+/opt/ros/jazzy/include/hardware_interface/hardware_interface/hardware_component_interface.hpp:140:26: note: declared here
+  140 |   virtual CallbackReturn on_init(const HardwareInfo & hardware_info);
+      |                          ^~~~~~~
+/home/skr/can_bezier_ws/src/arm_control/test/test_system.cpp: In function ‘int main(int, char**)’:
+/home/skr/can_bezier_ws/src/arm_control/test/test_system.cpp:30:41: warning: ‘double hardware_interface::Handle::get_value() const’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [-Wdeprecated-declarations]
+   30 |     CHECK(std::isnan(states[0].get_value())); // No synthetic encoder feedback before configuration.
+      |                      ~~~~~~~~~~~~~~~~~~~^~
+/home/skr/can_bezier_ws/src/arm_control/test/test_system.cpp:6:32: note: in definition of macro ‘CHECK’
+    6 | #define CHECK(expr) do { if (!(expr)) { std::cerr << "Failed at line " << __LINE__ << ": " << #expr << '\n'; std::exit(1); } } while (false)
+      |                                ^~~~
+In file included from /opt/ros/jazzy/include/hardware_interface/hardware_interface/hardware_component_interface.hpp:28,
+                 from /opt/ros/jazzy/include/hardware_interface/hardware_interface/system_interface.hpp:18,
+                 from /home/skr/can_bezier_ws/src/arm_control/include/arm_control/system.hpp:3,
+                 from /home/skr/can_bezier_ws/src/arm_control/test/test_system.cpp:1:
+/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:304:10: note: declared here
+  304 |   double get_value() const
+      |          ^~~~~~~~~
+/home/skr/can_bezier_ws/src/arm_control/test/test_system.cpp:32:32: warning: ‘double hardware_interface::Handle::get_value() const’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [-Wdeprecated-declarations]
+   32 |     CHECK(commands[0].get_value() == 0);
+      |           ~~~~~~~~~~~~~~~~~~~~~^~
+/home/skr/can_bezier_ws/src/arm_control/test/test_system.cpp:6:32: note: in definition of macro ‘CHECK’
+    6 | #define CHECK(expr) do { if (!(expr)) { std::cerr << "Failed at line " << __LINE__ << ": " << #expr << '\n'; std::exit(1); } } while (false)
+      |                                ^~~~
+/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:304:10: note: declared here
+  304 |   double get_value() const
+      |          ^~~~~~~~~
+/home/skr/can_bezier_ws/src/arm_control/test/test_system.cpp:36:75: warning: ‘double hardware_interface::Handle::get_value() const’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [-Wdeprecated-declarations]
+   36 |     CHECK(system.read(time, period) == read_ok); CHECK(states[0].get_value() <= .002);
+      |                                                        ~~~~~~~~~~~~~~~~~~~^~
+/home/skr/can_bezier_ws/src/arm_control/test/test_system.cpp:6:32: note: in definition of macro ‘CHECK’
+    6 | #define CHECK(expr) do { if (!(expr)) { std::cerr << "Failed at line " << __LINE__ << ": " << #expr << '\n'; std::exit(1); } } while (false)
+      |                                ^~~~
+/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:304:10: note: declared here
+  304 |   double get_value() const
+      |          ^~~~~~~~~
+/home/skr/can_bezier_ws/src/arm_control/test/test_system.cpp:41:32: warning: ‘double hardware_interface::Handle::get_value() const’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [-Wdeprecated-declarations]
+   41 |     CHECK(commands[0].get_value() == 0); // Old goal must not survive recovery.
+      |           ~~~~~~~~~~~~~~~~~~~~~^~
+/home/skr/can_bezier_ws/src/arm_control/test/test_system.cpp:6:32: note: in definition of macro ‘CHECK’
+    6 | #define CHECK(expr) do { if (!(expr)) { std::cerr << "Failed at line " << __LINE__ << ": " << #expr << '\n'; std::exit(1); } } while (false)
+      |                                ^~~~
+/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:304:10: note: declared here
+  304 |   double get_value() const
+      |          ^~~~~~~~~
+/home/skr/can_bezier_ws/src/arm_control/test/test_system.cpp:48:32: warning: ‘double hardware_interface::Handle::get_value() const’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [-Wdeprecated-declarations]
+   48 |     CHECK(commands[0].get_value() == states[0].get_value()); // Reactivation discards stale commands.
+      |           ~~~~~~~~~~~~~~~~~~~~~^~
+/home/skr/can_bezier_ws/src/arm_control/test/test_system.cpp:6:32: note: in definition of macro ‘CHECK’
+    6 | #define CHECK(expr) do { if (!(expr)) { std::cerr << "Failed at line " << __LINE__ << ": " << #expr << '\n'; std::exit(1); } } while (false)
+      |                                ^~~~
+/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:304:10: note: declared here
+  304 |   double get_value() const
+      |          ^~~~~~~~~
+/home/skr/can_bezier_ws/src/arm_control/test/test_system.cpp:48:57: warning: ‘double hardware_interface::Handle::get_value() const’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [-Wdeprecated-declarations]
+   48 |     CHECK(commands[0].get_value() == states[0].get_value()); // Reactivation discards stale commands.
+      |                                      ~~~~~~~~~~~~~~~~~~~^~
+/home/skr/can_bezier_ws/src/arm_control/test/test_system.cpp:6:32: note: in definition of macro ‘CHECK’
+    6 | #define CHECK(expr) do { if (!(expr)) { std::cerr << "Failed at line " << __LINE__ << ": " << #expr << '\n'; std::exit(1); } } while (false)
+      |                                ^~~~
+/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:304:10: note: declared here
+  304 |   double get_value() const
+      |          ^~~~~~~~~
+/home/skr/can_bezier_ws/src/arm_control/test/test_system.cpp:50:41: warning: ‘double hardware_interface::Handle::get_value() const’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [-Wdeprecated-declarations]
+   50 |     CHECK(std::isnan(states[0].get_value()));
+      |                      ~~~~~~~~~~~~~~~~~~~^~
+/home/skr/can_bezier_ws/src/arm_control/test/test_system.cpp:6:32: note: in definition of macro ‘CHECK’
+    6 | #define CHECK(expr) do { if (!(expr)) { std::cerr << "Failed at line " << __LINE__ << ": " << #expr << '\n'; std::exit(1); } } while (false)
+      |                                ^~~~
+/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:304:10: note: declared here
+  304 |   double get_value() const
+      |          ^~~~~~~~~
+---
+Finished <<< arm_control [37.7s]
+
+Summary: 1 package finished [38.0s]
+  1 package had stderr output: arm_control

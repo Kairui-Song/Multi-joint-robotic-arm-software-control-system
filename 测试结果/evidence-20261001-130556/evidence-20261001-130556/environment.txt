@@ -1,0 +1,120 @@
+2026-10-01T13:05:56+08:00
+Linux skr-VMware-Virtual-Platform 7.0.0-34-generic #34~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 15:38:29 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+42
+/home/skr/linglong_1025_2/ros2_ws/install-ubuntu/linglong_control
+480e438285d1bd6508509ed73253cdcc283968898a919eac8075572d70a20fc7  tools/longrun_vm.sh
+b9f8f4e92b6cc47d5220b581273566a7f0c37bac17a19d620e74553e063b1d3f  src/linglong_control/linglong_control_tools/trajectory_demo.py
+ff2bf6eed3efae5674a1dc9d9d69b8a0e556689c5b6cb42e9d486476e935579d  src/linglong_control/linglong_control_tools/health.py
+ff9b07b413fa74b347c63b8025aec7f29cf953db5eb6c817feba392481f41a01  src/linglong_control/linglong_control_tools/diagnostics.py
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 140
+model name	: 11th Gen Intel(R) Core(TM) i5-11320H @ 3.20GHz
+stepping	: 2
+microcode	: 0xffffffff
+cpu MHz		: 3187.201
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 27
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves arat avx512vbmi umip avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq rdpid movdiri movdir64b fsrm avx512_vp2intersect md_clear flush_l1d arch_capabilities
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs retbleed gds bhi spectre_v2_user its its_native_only
+bogomips	: 6374.40
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 45 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 140
+model name	: 11th Gen Intel(R) Core(TM) i5-11320H @ 3.20GHz
+stepping	: 2
+microcode	: 0xffffffff
+cpu MHz		: 3187.201
+cache size	: 8192 KB
+physical id	: 2
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 27
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves arat avx512vbmi umip avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq rdpid movdiri movdir64b fsrm avx512_vp2intersect md_clear flush_l1d arch_capabilities
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs retbleed gds bhi spectre_v2_user its its_native_only
+bogomips	: 6374.40
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 45 bits physical, 48 bits virtual
+power management:
+
+MemTotal:        3956136 kB
+MemFree:          497056 kB
+MemAvailable:    2342740 kB
+Buffers:           68528 kB
+Cached:          1993152 kB
+SwapCached:            0 kB
+Active:          2083700 kB
+Inactive:         710852 kB
+Active(anon):     781828 kB
+Inactive(anon):        0 kB
+Active(file):    1301872 kB
+Inactive(file):   710852 kB
+Unevictable:          16 kB
+Mlocked:              16 kB
+SwapTotal:       3959804 kB
+SwapFree:        3959804 kB
+Zswap:                 0 kB
+Zswapped:              0 kB
+Dirty:               684 kB
+Writeback:             0 kB
+AnonPages:        733124 kB
+Mapped:           399968 kB
+Shmem:             48856 kB
+KReclaimable:      74632 kB
+Slab:             278224 kB
+SReclaimable:      74632 kB
+SUnreclaim:       203592 kB
+KernelStack:       14976 kB
+PageTables:        21528 kB
+SecPageTables:         0 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     5937872 kB
+Committed_AS:    5342604 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       37828 kB
+VmallocChunk:          0 kB
+Percpu:           100352 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:    126976 kB
+FilePmdMapped:         0 kB
+CmaTotal:              0 kB
+CmaFree:          240860 kB
+Unaccepted:            0 kB
+Balloon:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      175936 kB
+DirectMap2M:     4018176 kB
+DirectMap1G:     2097152 kB

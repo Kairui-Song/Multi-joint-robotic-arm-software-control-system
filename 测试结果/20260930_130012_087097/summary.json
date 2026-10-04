@@ -1,0 +1,29 @@
+{
+  "scope": "Seven-axis simulation; not physical hardware validation",
+  "seed": 20260930,
+  "planned": 60,
+  "attempted": 1,
+  "passed": 0,
+  "all_passed": false,
+  "results": [
+    {
+      "index": 1,
+      "round": 1,
+      "case": "zero_start",
+      "input_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "duration_s": 5,
+      "elapsed_s": 12.731,
+      "returncode": 130,
+      "passed": false,
+      "log": "001_round01_zero_start.log"
+    }
+  ]
+}

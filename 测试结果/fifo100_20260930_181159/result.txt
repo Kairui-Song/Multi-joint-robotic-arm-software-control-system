@@ -1,0 +1,4 @@
+passed=100
+planned=100
+last_exit_code=0
+elapsed_seconds=604

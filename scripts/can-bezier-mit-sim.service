@@ -1,0 +1,10 @@
+[Unit]
+Description=Seven-axis CAN Bezier ROS 2 simulation
+
+[Service]
+Type=simple
+Environment=ARM_RVIZ=true
+ExecStart=/bin/bash %h/can_bezier_ws/run_mit_sim.sh
+KillSignal=SIGINT
+TimeoutStopSec=20
+

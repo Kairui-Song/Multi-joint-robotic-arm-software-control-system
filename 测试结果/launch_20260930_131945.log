@@ -1,0 +1,53 @@
+[INFO] [launch]: All log files can be found below /home/skr/.ros/log/2026-09-30-13-19-45-706372-skr-VMware-Virtual-Platform-8737
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [robot_state_publisher-1]: process started with pid [8741]
+[INFO] [ros2_control_node-2]: process started with pid [8742]
+[INFO] [spawner-3]: process started with pid [8743]
+[INFO] [spawner-4]: process started with pid [8744]
+[INFO] [rviz2-5]: process started with pid [8745]
+[robot_state_publisher-1] [INFO] [1790745585.982002600] [robot_state_publisher]: Robot initialized
+[ros2_control_node-2] [INFO] [1790745586.271725006] [controller_manager]: Using Steady (Monotonic) clock for triggering controller manager cycles.
+[ros2_control_node-2] [INFO] [1790745586.286891311] [controller_manager]: Subscribing to '/robot_description' topic for robot description.
+[ros2_control_node-2] [INFO] [1790745586.286979365] [controller_manager]: update rate is 100 Hz
+[ros2_control_node-2] [INFO] [1790745586.286989024] [controller_manager]: Overruns handling is : enabled
+[ros2_control_node-2] [INFO] [1790745586.286998453] [controller_manager]: Spawning controller_manager RT thread with scheduler priority: 50
+[ros2_control_node-2] [WARN] [1790745586.287309586] [controller_manager]: Could not enable FIFO RT scheduling policy: with error number <1>(Operation not permitted). See [https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html] for details on how to enable realtime scheduling.
+[ros2_control_node-2] [INFO] [1790745586.516713395] [controller_manager]: Received robot description from topic.
+[ros2_control_node-2] [INFO] [1790745586.516927725] [controller_manager]: Enforcing command limits is disabled. Command limits from URDF will be ignored.
+[ros2_control_node-2] [INFO] [1790745586.534020382] [controller_manager]: Loading hardware 'ArmSystem' 
+[ros2_control_node-2] [INFO] [1790745586.545957286] [controller_manager]: Loaded hardware 'ArmSystem' from plugin 'arm_control/ArmSystem'
+[ros2_control_node-2] [INFO] [1790745586.548556048] [controller_manager]: Initialize hardware 'ArmSystem' 
+[ros2_control_node-2] [INFO] [1790745586.658456520] [controller_manager]: Successful initialization of hardware 'ArmSystem'
+[ros2_control_node-2] [INFO] [1790745586.659103722] [controller_manager]: Setting component 'ArmSystem' to 'inactive' state.
+[ros2_control_node-2] [INFO] [1790745586.659133669] [resource_manager]: 'configure' hardware 'ArmSystem' 
+[ros2_control_node-2] [INFO] [1790745586.659184153] [resource_manager]: Successful 'configure' of hardware 'ArmSystem'
+[ros2_control_node-2] [INFO] [1790745586.659249358] [controller_manager]: Registering statistics for : ArmSystem
+[ros2_control_node-2] [INFO] [1790745586.660497917] [controller_manager]: Resource Manager has been successfully initialized. Starting Controller Manager services...
+[rviz2-5] [INFO] [1790745587.849122553] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-5] [INFO] [1790745587.850466195] [rviz2]: OpenGl version: 4.3 (GLSL 4.3)
+[spawner-4] [INFO] [1790745587.945173826] [spawner_joint_trajectory_controller]: waiting for service /controller_manager/list_controllers to become available...
+[rviz2-5] [INFO] [1790745587.982549232] [rviz2]: Stereo is NOT SUPPORTED
+[ros2_control_node-2] [INFO] [1790745588.779610884] [controller_manager]: Received robot description from topic.
+[ros2_control_node-2] [WARN] [1790745588.779676382] [controller_manager]: ResourceManager has already loaded a urdf and is initialized. Ignoring attempt to reload a robot description.
+[spawner-4] [WARN] [1790745589.206303304] [spawner_joint_trajectory_controller]: Controller already loaded, skipping load_controller
+[spawner-4] [ERROR] [1790745589.213532520] [spawner_joint_trajectory_controller]: Failed to configure controller
+[ERROR] [spawner-4]: process has died [pid 8744, exit code 1, cmd '/opt/ros/jazzy/lib/controller_manager/spawner joint_trajectory_controller --inactive --param-file /tmp/arm_controllers_uy88l2da.yaml --controller-manager-timeout 60 --ros-args'].
+[spawner-3] [INFO] [1790745589.523281303] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-3] [WARN] [1790745589.791942709] [spawner_joint_state_broadcaster]: Controller already loaded, skipping load_controller
+[ros2_control_node-2] [INFO] [1790745589.804013613] [controller_manager]: Configuring controller: 'joint_state_broadcaster'
+[ros2_control_node-2] [ERROR] [1790745589.804062970] [controller_manager]: Could not configure controller with name 'joint_state_broadcaster' because no controller with this name exists
+[spawner-3] [ERROR] [1790745589.807028132] [spawner_joint_state_broadcaster]: Failed to configure controller
+[ERROR] [spawner-3]: process has died [pid 8743, exit code 1, cmd '/opt/ros/jazzy/lib/controller_manager/spawner joint_state_broadcaster --inactive --param-file /tmp/arm_controllers_uy88l2da.yaml --controller-manager-timeout 60 --ros-args'].
+[ros2_control_node-2] [WARN] [1790745596.038541371] [controller_manager]: Overrun detected! The controller manager missed its desired rate of 100 Hz. The loop took 51.037850 ms (missed cycles : 6).
+[ros2_control_node-2] [WARN] [1790745597.135121683] [controller_manager]: Overrun detected! The controller manager missed its desired rate of 100 Hz. The loop took 17.609844 ms (missed cycles : 2).
+[ros2_control_node-2] [WARN] [1790745601.723043090] [controller_manager]: Overrun detected! The controller manager missed its desired rate of 100 Hz. The loop took 15.539026 ms (missed cycles : 2).
+[ros2_control_node-2] [WARN] [1790745607.456913705] [controller_manager]: Overrun detected! The controller manager missed its desired rate of 100 Hz. The loop took 19.409651 ms (missed cycles : 2).
+[ros2_control_node-2] [WARN] [1790745657.649800431] [controller_manager]: Overrun detected! The controller manager missed its desired rate of 100 Hz. The loop took 22.296754 ms (missed cycles : 3).
+[ros2_control_node-2] [WARN] [1790745667.358228740] [controller_manager]: Overrun detected! The controller manager missed its desired rate of 100 Hz. The loop took 10.724794 ms (missed cycles : 2).
+[ros2_control_node-2] [WARN] [1790745673.619743869] [controller_manager]: Overrun detected! The controller manager missed its desired rate of 100 Hz. The loop took 22.239265 ms (missed cycles : 3).
+[ros2_control_node-2] [WARN] [1790745676.139804622] [controller_manager]: Overrun detected! The controller manager missed its desired rate of 100 Hz. The loop took 12.300471 ms (missed cycles : 2).
+[ros2_control_node-2] [WARN] [1790745727.872330193] [controller_manager]: Overrun detected! The controller manager missed its desired rate of 100 Hz. The loop took 14.826241 ms (missed cycles : 2).
+[ros2_control_node-2] [WARN] [1790745743.900736771] [controller_manager]: Overrun detected! The controller manager missed its desired rate of 100 Hz. The loop took 13.232266 ms (missed cycles : 2).
+[ros2_control_node-2] [WARN] [1790745751.850570409] [controller_manager]: Overrun detected! The controller manager missed its desired rate of 100 Hz. The loop took 13.065514 ms (missed cycles : 2).
+[ros2_control_node-2] [WARN] [1790745759.888293474] [controller_manager]: Overrun detected! The controller manager missed its desired rate of 100 Hz. The loop took 10.788939 ms (missed cycles : 2).
+[ros2_control_node-2] [WARN] [1790745762.907671301] [controller_manager]: Overrun detected! The controller manager missed its desired rate of 100 Hz. The loop took 60.167790 ms (missed cycles : 7).

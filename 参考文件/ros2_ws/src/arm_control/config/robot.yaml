@@ -1,0 +1,33 @@
+# Simulation example. Replace every hardware value using the servo ESI/manual.
+# Units: joint radians, rad/s; counts_per_rad includes gearbox ratio.
+hardware:
+  backend: sim
+  cycle_ns: 1000000
+  watchdog_s: 0.02
+  activation_timeout_s: 5.0
+  commissioned: false
+  reset_faults_on_activate: false
+  master_index: 0
+  dc_assign: 0
+  watchdog_divider: 2498
+  watchdog_intervals: 100
+joints:
+  - &axis
+    name: joint1
+    lower: -2.8
+    upper: 2.8
+    max_velocity: 1.0
+    counts_per_rad: 100000.0
+    zero_counts: 0
+    direction: 1
+    alias: 0
+    position: 0
+    vendor_id: 0
+    product_code: 0
+    rx_pdo: 0x1600
+    tx_pdo: 0x1a00
+  - {<<: *axis, name: joint2, position: 1}
+  - {<<: *axis, name: joint3, position: 2}
+  - {<<: *axis, name: joint4, position: 3}
+  - {<<: *axis, name: joint5, position: 4}
+  - {<<: *axis, name: joint6, position: 5}

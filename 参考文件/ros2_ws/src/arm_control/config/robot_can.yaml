@@ -1,0 +1,46 @@
+# Frame-level CAN simulation by default. Physical transport requires explicit confirmations.
+hardware:
+  backend: can_mock
+  cycle_ns: 5000000
+  watchdog_s: 0.05
+  activation_timeout_s: 5.0
+  commissioned: false
+  can_protocol: rv_packed_v1
+  can_interface: can0
+  can_bitrate: 1000000
+  feedback_timeout_s: 0.05
+  protocol_confirmed: false
+  stop_confirmed: false
+  motor_watchdog_confirmed: false
+  zcan_device_type: 0
+  zcan_device_index: 0
+  zcan_channel: 0
+  zcan_timing0: 0
+  zcan_timing1: 0
+  zcan_bitrate_property: ''
+kinematics:
+  calibrated: false
+  description: Example geometry only; replace with measured robot model before real motion
+  tool_xyz: [0.1, 0.0, 0.0]
+  tool_rpy: [0.0, 0.0, 0.0]
+joints:
+  - &axis
+    name: joint1
+    motor_id: 1
+    lower: -2.8
+    upper: 2.8
+    max_velocity: 1.0
+    max_acceleration: 2.0
+    direction: 1
+    gear_ratio: 1.0
+    motor_zero_rad: 0.0
+    kp: 20.0
+    kd: 0.5
+    origin_xyz: [0.0, 0.0, 0.1]
+    origin_rpy: [0.0, 0.0, 0.0]
+    axis: [0.0, 0.0, 1.0]
+  - {<<: *axis, name: joint2, motor_id: 2, origin_xyz: [0.0, 0.0, 0.1], axis: [0.0, 1.0, 0.0]}
+  - {<<: *axis, name: joint3, motor_id: 3, origin_xyz: [0.3, 0.0, 0.0], axis: [0.0, 1.0, 0.0]}
+  - {<<: *axis, name: joint4, motor_id: 4, origin_xyz: [0.25, 0.0, 0.0], axis: [1.0, 0.0, 0.0]}
+  - {<<: *axis, name: joint5, motor_id: 5, origin_xyz: [0.08, 0.0, 0.0], axis: [0.0, 1.0, 0.0]}
+  - {<<: *axis, name: joint6, motor_id: 6, origin_xyz: [0.07, 0.0, 0.0], axis: [1.0, 0.0, 0.0]}
